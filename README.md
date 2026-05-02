@@ -1,6 +1,6 @@
 # go-lab
 
-A personal Go learning and experimentation workspace. This project serves as a **refresh/reboot journey** to re-learn Go programming after not using it since 2020.
+A personal workspace dedicated to re-learning and mastering the Go programming language. After a hiatus since 2020, this repository serves as a living laboratory for experimenting with modern Go idioms, performance patterns, and the evolved ecosystem.
 
 ## Project Structure
 
@@ -24,11 +24,13 @@ go run main.go
 ### api
 
 REST API demonstrating:
+
 - **Gin** - Web framework
 - **GORM** - ORM for database operations
 - **SQLite** - Lightweight database
 
 **Endpoints:**
+
 - `GET /ping` - Health check, returns `{"message": "pong"}`
 - `POST /todos` - Create a todo item
 
