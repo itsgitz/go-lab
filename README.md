@@ -17,8 +17,7 @@ go-lab/
 Minimal Go module demonstrating basic syntax. Prints "Hello world!" to stdout.
 
 ```bash
-cd getting-started
-go run main.go
+make run APP=getting-started
 ```
 
 ### api
@@ -35,8 +34,7 @@ REST API demonstrating:
 - `POST /todos` - Create a todo item
 
 ```bash
-cd api
-go run main.go
+make run APP=api
 # Server runs on http://localhost:8080
 ```
 
