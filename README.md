@@ -51,6 +51,15 @@ This project covers a refresh of:
 - JSON request/response handling
 - Basic CRUD operations
 
+## Commands
+
+```bash
+make            # Build all apps
+make build APP=<name>   # Build a specific app (e.g. APP=api)
+make run APP=<name>     # Run a specific app
+make clean      # Remove built binaries
+```
+
 ## Requirements
 
 - Go 1.21+
